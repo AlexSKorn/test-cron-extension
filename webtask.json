@@ -1,0 +1,20 @@
+{
+  "title": "Test Cron Extension",
+  "name": "test-cron-extension",
+  "version": "1.0.0",
+  "author": "Auth0",
+  "description": "Test Cron Extension",
+  "type": "cron",
+  "repository": "https://github.com/AlexSKorn/test-cron-extension",
+  "secerets": {
+    "TEST_SECRET": {
+      "description": "Test secret",
+      "required": true 
+    }
+  },
+  "keywords": [
+    "auth0",
+    "extension"
+  ],
+  "codeUrl": "https://raw.githubusercontent.com/AlexSKorn/test-cron-extension/master/index.js"
+}
