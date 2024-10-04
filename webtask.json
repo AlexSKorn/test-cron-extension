@@ -6,12 +6,7 @@
   "description": "Test Cron Extension",
   "type": "cron",
   "repository": "https://github.com/AlexSKorn/test-cron-extension",
-  "secerets": {
-    "TEST_SECRET": {
-      "description": "Test secret",
-      "required": true 
-    }
-  },
+  "schedule": "0 */5 * * * *",
   "keywords": [
     "auth0",
     "extension"
